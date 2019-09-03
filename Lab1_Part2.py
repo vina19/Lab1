@@ -8,9 +8,9 @@ number_of_class = int(input('How many classes are you taking this semester? '))
 for n in range(number_of_class):
     class_name = input('Enter the name of the class: ')
     list_of_classes.append(class_name)
-    
-print('The classes you are taking are: ')
 
+#Display the classes that user take
+print('The classes you are taking are: ')
 for name in list_of_classes:
     print('\n'.join(list_of_classes))
 
